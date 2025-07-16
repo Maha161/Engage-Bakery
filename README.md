@@ -141,13 +141,14 @@ font-family: "Alegreya Sans", sans-serif;
 ```
 
 Engage-Bakery/
-├── index.html # Main homepage
+├── index.html # Homepage
 ├── CSS/
-│ └── style.css # Custom stylesheet
-├── images/ # Folder for all images (logo, background, products, etc.)
+│ └── style.css # Stylesheet
+├── images/
+│
 ├── Js/
-│ └── index.js # JavaScript logic file
-├── README.md # Project documentation
+│ └── index.js # JavaScript file
+└── README.md # Project documentation
 
 ```
 

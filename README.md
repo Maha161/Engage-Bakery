@@ -144,11 +144,9 @@ Engage-Bakery/
 ├── index.html # Main homepage
 ├── CSS/
 │ └── style.css # Custom stylesheet
-├── images/
-│ ├── bakery-light-1.png
-│ ├── drew-coffman.jpg
-│ ├── alexandru-stavrica.jpg
-│ └── (product & location images)
+├── images/ # Folder for all images (logo, background, products, etc.)
+├── Js/
+│ └── index.js # JavaScript logic file (if needed)
 ├── README.md # Project documentation
 
 ```

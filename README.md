@@ -140,15 +140,16 @@ font-family: "Alegreya Sans", sans-serif;
 
 ```
 
-GlowNest/
-├── index.html # Homepage
+Engage-Bakery/
+├── index.html # Main homepage
 ├── CSS/
-│ └── style.css # Stylesheet
+│ └── style.css # Custom stylesheet
 ├── images/
-│ └── _.jpg / _.ico # Project images and icons
-├── Js/
-│ └── index.js # JavaScript file
-└── README.md # Project documentation
+│ ├── bakery-light-1.png
+│ ├── drew-coffman.jpg
+│ ├── alexandru-stavrica.jpg
+│ └── (product & location images)
+├── README.md # Project documentation
 
 ```
 

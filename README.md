@@ -146,12 +146,12 @@ font-family: "Alegreya Sans", sans-serif;
 Engage-Bakery/
 ├── README.md
 └── src/
-├── index.html # Homepage
-├── css/
-│ └── style.css # Custom styles
-├── js/
-│ └── index.js # Optional JavaScript
-└── images/ # All site images
+    ├── index.html # Homepage
+    ├── css/
+    │ └── style.css # Custom styles
+    ├── js/
+    │ └── index.js # Optional JavaScript
+    └── images/ # All site images
 
 ```
 

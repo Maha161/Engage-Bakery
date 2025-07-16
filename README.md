@@ -144,8 +144,7 @@ Engage-Bakery/
 ├── index.html # Homepage
 ├── CSS/
 │ └── style.css # Stylesheet
-├── images/
-│
+├── images/ # Folder for all images (logo, background, products, etc.)
 ├── Js/
 │ └── index.js # JavaScript file
 └── README.md # Project documentation

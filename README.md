@@ -134,24 +134,26 @@ font-family: "Alegreya Sans", sans-serif;
 | **CSS3**         | Styling and responsive layout         |
 | **Font Awesome** | Icons for features, nav, footer, etc. |
 | **Google Fonts** | Custom Font                           |
+
+```
+
 ---
 
-### 📁 Folder Structure
+## 📁 Folder Structure
 
 ```
 
 Engage-Bakery/
+├── README.md
+└── src/
 ├── index.html # Homepage
-├── CSS/
-│ └── style.css # Stylesheet
-├── images/ # Folder for all images (logo, background, products, etc.)
-├── Js/
-│ └── index.js # JavaScript file
-└── README.md # Project documentation
+├── css/
+│ └── style.css # Custom styles
+├── js/
+│ └── index.js # Optional JavaScript
+└── images/ # All site images
 
 ```
-
-
 
 ---
 
@@ -173,4 +175,7 @@ _Frontend Developer_
 📧 [mahaebrahiim4@gmail.com](mailto:mahaebrahiim4@gmail.com)
 
 ---
+
+```
+
 ```

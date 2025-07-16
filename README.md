@@ -146,10 +146,11 @@ Engage-Bakery/
 │ └── style.css # Custom stylesheet
 ├── images/ # Folder for all images (logo, background, products, etc.)
 ├── Js/
-│ └── index.js # JavaScript logic file (if needed)
+│ └── index.js # JavaScript logic file
 ├── README.md # Project documentation
 
 ```
+
 
 ---
 

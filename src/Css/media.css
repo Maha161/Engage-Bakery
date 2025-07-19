@@ -1,0 +1,401 @@
+/* Extra Small [0px to 640px] */
+@media screen and (max-width: 640px) {
+  .container {
+    width: 95%;
+  }
+
+  /* Header */
+  .header {
+    height: 100vh;
+  }
+  .nav-container {
+    background-color: white;
+    color: #333;
+  }
+
+  .logo img {
+    content: url("../images/bakery-color.png");
+    width: 120px;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #333 !important;
+    margin-left: auto;
+  }
+
+  .close-icon {
+    display: none;
+    color: #333 !important;
+    margin-left: auto;
+  }
+
+  .mobile-menu:checked ~ .menu-icon {
+    display: none;
+  }
+
+  .mobile-menu:checked ~ .close-icon {
+    display: block;
+  }
+
+  .mobile-menu:checked ~ nav ul {
+    display: flex;
+  }
+
+  nav ul {
+    display: none;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  nav ul li {
+    margin: 0;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+  }
+
+  nav ul li a {
+    color: #333;
+  }
+
+  .dropdown-content {
+    position: static;
+    box-shadow: none;
+    display: none;
+    background-color: #f8f8f8;
+  }
+  .dropdown-content a {
+    color: #333;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+
+  .dropdown:active .dropdown-content,
+  .dropdown:focus-within .dropdown-content {
+    display: block;
+  }
+
+  .header-content {
+    padding: 80px 5%;
+  }
+
+  .header-content h1 {
+    font-size: 36px;
+  }
+  .btn {
+    min-width: 120px;
+  }
+
+  .side-box {
+    padding: 5px 3px;
+    top: 30%;
+    z-index: 99;
+  }
+
+  .side-box li {
+    padding: 10px 5px;
+  }
+
+  .side-box i {
+    font-size: 16px;
+  }
+
+  .who-we-are {
+    margin: 20px 0;
+  }
+
+  /* Who We Are Section */
+  .who-we-are .container,
+  .our-location .container,
+  .contact-information .container {
+    flex-direction: column;
+  }
+
+  .who-we-are .who-we-are-image,
+  .who-we-are .who-we-are-content,
+  .our-location-content,
+  .our-location-image,
+  .contact-content,
+  .map-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .our-baking .all-cards {
+    flex-direction: column;
+  }
+
+  .our-baking .all-cards .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* Footer */
+  .upper-footer .colum {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  img.logo-image-footer {
+    width: 50%;
+  }
+}
+
+/* Small [641px to 768px]*/
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .header {
+    height: 100vh;
+  }
+
+  /* Navigation */
+  .nav-container {
+    background-color: white;
+    color: #333;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #333 !important;
+    margin-left: auto;
+  }
+
+  .close-icon {
+    display: none;
+    color: #333 !important;
+    margin-left: auto;
+  }
+
+  .mobile-menu:checked ~ .menu-icon {
+    display: none;
+  }
+
+  .mobile-menu:checked ~ .close-icon {
+    display: block;
+  }
+
+  .mobile-menu:checked ~ nav ul {
+    display: flex;
+  }
+
+  nav ul {
+    display: none;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  nav ul li {
+    margin: 0;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+  }
+
+  nav ul li a {
+    color: #333;
+  }
+
+  .dropdown-content {
+    position: static;
+    box-shadow: none;
+    display: none;
+    background-color: #f8f8f8;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+
+  .dropdown:active .dropdown-content,
+  .dropdown:focus-within .dropdown-content {
+    display: block;
+  }
+
+  .logo img {
+    content: url("../images/bakery-color.png");
+    width: 120px;
+  }
+
+  .header-content {
+    padding: 80px 5%;
+  }
+
+  .header-content h1 {
+    font-size: 36px;
+  }
+
+  .side-box {
+    padding: 5px 3px;
+  }
+
+  .side-box li {
+    padding: 10px 5px;
+  }
+
+  .side-box i {
+    font-size: 16px;
+  }
+
+  /* Who We Are Section */
+  .who-we-are .container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .who-we-are .who-we-are-image,
+  .who-we-are .who-we-are-content {
+    width: 100%;
+  }
+
+  /* Our Location */
+  .our-location .container {
+    flex-direction: column;
+  }
+
+  .our-location-content,
+  .our-location-image {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* Our Baking */
+  .our-baking .all-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .our-baking .all-cards .card {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+
+  /* Contact Information */
+  .contact-information .container {
+    flex-direction: column;
+  }
+
+  .contact-content,
+  .map-container {
+    width: 100%;
+  }
+
+  /* Footer */
+  .upper-footer .colum {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+}
+
+/* Medium [769px to 1024px]*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+
+  /* Navigation - Show desktop menu */
+  .menu-icon,
+  .close-icon {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  /* Who We Are Section */
+  .who-we-are .container {
+    gap: 20px;
+  }
+
+  .who-we-are .who-we-are-image {
+    width: 45%;
+  }
+
+  .who-we-are .who-we-are-content {
+    width: 55%;
+  }
+
+  /* Our Location */
+  .our-location-content {
+    width: 45%;
+    padding-right: 20px;
+  }
+
+  .our-location-image {
+    width: 55%;
+  }
+
+  /* Our Baking */
+  .our-baking .all-cards {
+    gap: 20px;
+  }
+
+  .our-baking .all-cards .card {
+    width: 30%;
+  }
+
+  /* Contact Information */
+  .contact-content {
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  .map-container {
+    width: 50%;
+  }
+
+  /* Footer */
+  .upper-footer .colum {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+}
+
+/* Large [1025px to 1280px]  */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .container {
+    width: 85%;
+  }
+
+  /* Who We Are Section */
+  .who-we-are .who-we-are-image {
+    width: 48%;
+  }
+
+  .who-we-are .who-we-are-content {
+    width: 52%;
+  }
+
+  /* Our Baking */
+  .our-baking .all-cards {
+    gap: 25px;
+  }
+
+  /* Footer */
+  .upper-footer .colum {
+    width: 23%;
+  }
+}
+
+/* Extra Large [1281px to 1536px]*/
+@media screen and (min-width: 1281px) and (max-width: 1536px) {
+  .container {
+    width: 80%;
+    max-width: 1400px;
+  }
+}

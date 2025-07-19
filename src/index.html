@@ -19,45 +19,81 @@
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="./Css/style.css" />
+  
+  <!-- Media Stylesheet -->
+   <link rel="stylesheet" href="./Css/media.css">
+
 </head>
 
 <body>
   <!-- Header -->
-  <header>
-    <div class="header">
-      <div class="overlay"></div>
-      <div class="container">
-        <nav class="navbar">
-          <div class="left-nav">
+  <header class="header">
+    <div class="overlay"></div>
+      <!-- Navigation -->
+      <div class="nav-container">
+        <div class="container nav-content">
+          <div class="logo">
             <img src="./images/bakery-light-1.png" alt="Bakery Logo" />
           </div>
-          <div class="right-nav">
+          <input type="checkbox" id="menuToggle" class="mobile-menu">
+          <label for="menuToggle" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
+          <label for="menuToggle" class="close-icon"><i class="fa-solid fa-xmark"></i></label>
+          <nav>
             <ul>
-              <li><a href="#">Home</a></li>
+              <li><a href="./index.html" class="active">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Our Offer</a></li>
               <li><a href="#">Gallery</a></li>
-              <li><a href="#">Blog</a></li>
+              <li class="dropdown">
+                <a href="#">Blog</a>
+                <div class="dropdown-content">
+                  <a href="#">Blog index</a>
+                  <a href="#">Simple Post</a>
+                  <a href="#">Gallery Post</a>
+                  <a href="#">Basic Post</a>
+                </div>
+              </li>
               <li><a href="#">Contact</a></li>
             </ul>
-          </div>
-        </nav>
-        <div class="header-content">
-          <p class="welcome">Welcome to</p>
-          <h1>Family Bakery</h1>
-          <p>We're the biggest, best equipped and most advanced Bakery in the greater<br>Los Angeles area.</p>
-          <div class="header-buttons">
-            <button class="learn-more-button">Learn More</button>
-            <button class="contact-us-button">Contact Us</button>
-          </div>
+          </nav>
+        </div>
+      </div> 
+
+        <!-- Header Content -->
+      <div class="container header-content">
+        <p class="welcome">Welcome to</p>
+        <h1>Family Bakery</h1>
+        <p>We're the biggest, best equipped and most advanced Bakery in the greater<br>Los Angeles area.</p>
+        <div class="header-content-buttons">
+          <a href="#" class="btn btn-primary">Learn More</a>
+          <a href="#" class="btn btn-secondary">Contact us</a>
         </div>
       </div>
-    </div>
-  </header>
+        
+        <!-- Side Box -->
+      <div class="side-box">
+        <ul>
+          <li>
+            <i class="fa-solid fa-gears"></i>
+            <a href="#">See Demo Sites</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="#">Buy Engage Now!</a>
+          </li>
+        </ul>
+      </div>
 
+      <a href="#second" class="scroll-button">
+  <span class="mouse">
+    <span class="dot"></span>
+  </span>
+</a>
+    </header>
+  <!-- Main Sections -->
   <main>
     <!-- Who We Are -->
-    <section class="who-we-are">
+    <section class="who-we-are" id="second">
       <div class="container">
         <div class="who-we-are-image">
           <img src="./images/alexandru-stavrica-170390-800x760.jpg" alt="Alexandru Stavrica" class="who-we-are-image" />
@@ -71,7 +107,7 @@
             <li><i class="fa-solid fa-heart"></i> Social media loves us!</li>
             <li><i class="fa-solid fa-check"></i> This list is super easy to create.</li>
           </ul>
-        </div>
+        </div>       
       </div>
     </section>
 
@@ -97,29 +133,35 @@
           <p>Learn more about them. We have worked truly hard to make them perfect for every use.</p>
         </div>
         <div class="all-cards">
-          <article class="card">
-            <img src="./images/ben-garratt-134774-600x500.jpg" alt="Superior Breads" />
+          <div class="card">
+            <div class="card-image-container">
+              <img src="./images/ben-garratt-134774-600x500.jpg" alt="Superior Breads" />
+            </div>
             <div class="card-content">
               <h3>Superior Breads</h3>
               <p>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper mauris velit a velit. Phasellus commodo turpis et lacinia posuere.</p>
             </div>
-          </article>
+          </div>
 
-          <article class="card">
-            <img src="./images/stas-ovsky-123540-600x500.jpg" alt="Bagels" />
+          <div class="card">
+            <div class="card-image-container">
+              <img src="./images/stas-ovsky-123540-600x500.jpg" alt="Bagels" />
+            </div>
             <div class="card-content">
               <h3>Bagels</h3>
               <p>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper mauris velit a velit. Phasellus commodo turpis et lacinia posuere.</p>
             </div>
-          </article>
+          </div>
 
-          <article class="card">
-            <img src="./images/clem-onojeghuo-206832-600x500.jpg" alt="Cookies" />
+          <div class="card">
+            <div class="card-image-container">
+              <img src="./images/clem-onojeghuo-206832-600x500.jpg" alt="Cookies" /> 
+            </div>
             <div class="card-content">
               <h3>Cookies</h3>
               <p>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper mauris velit a velit. Phasellus commodo turpis et lacinia posuere.</p>
             </div>
-          </article>
+          </div>
         </div>
       </div>
     </section>
@@ -140,7 +182,8 @@
         </div>
 
         <div class="map-container">
-          <div class="map-overlay"></div>
+          <div class="map-overlay">
+          </div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999337193471!2d2.2922926156741096!3d48.85837307928742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc7f3e92e9b%3A0x20e6f8c68c8e1d3!2sEiffel%20Tower!5e0!3m2!1sen!2sus!4v1624916937839!5m2!1sen!2sus"
             width="100%"
@@ -155,10 +198,10 @@
       </div>
     </section>
   </main>
-
   <!-- Footer -->
   <footer class="footer">
     <div class="upper-footer">
+      <div class="footer-overlay"></div>
       <div class="container">
         <section class="colum">
           <div class="about-us-colum">
